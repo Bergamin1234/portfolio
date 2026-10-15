@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ítalo Bergamin | Sistemas & Desenvolvimento</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Portfólio profissional de Ítalo Bergamin - Graduando em Sistemas de Informação pela Unisapiens, atuante na Supel Rondônia em banco de dados, desenvolvimento web e soluções criativas.">
+  <meta name="keywords" content="Ítalo Bergamin, Sistemas de Informação, Unisapiens, Supel Rondônia, Banco de Dados, Python, HTML, CSS, JavaScript, Inteligência Artificial, Azure AI-900, Porto Velho">
+  <meta name="author" content="Ítalo Bergamin">
+  <meta name="theme-color" content="#0a0f1d">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://Bergamin1234.github.io/portfolio/">
+  <meta property="og:title" content="Ítalo Bergamin | Sistemas & Desenvolvimento">
+  <meta property="og:description" content="Website moderno e portfólio profissional de Ítalo Bergamin. Soluções criativas, banco de dados e desenvolvimento de software.">
+  <meta property="og:image" content="assets/img/profile.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Skip to Content Link (Accessibility) -->
+  <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+  <!-- Ambient Background Lighting (Dark Mode Neon Glows) -->
+  <div class="ambient-glow ambient-glow-top" aria-hidden="true"></div>
+  <div class="ambient-glow ambient-glow-center" aria-hidden="true"></div>
+  <div class="ambient-glow ambient-glow-bottom" aria-hidden="true"></div>
+
+  <!-- Glassmorphic Header / Navbar -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <a href="#hero" class="brand-logo" aria-label="Ítalo Bergamin - Voltar ao início">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-text">Ítalo Bergamin</span>
+        <span class="logo-slash">&#47;&gt;</span>
+      </a>
+
+      <!-- Desktop & Tablet Navigation -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Navegação principal">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Início</a></li>
+          <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+          <li class="nav-item"><a href="#formacao" class="nav-link">Formação</a></li>
+          <li class="nav-item"><a href="#experiencias" class="nav-link">Experiências</a></li>
+          <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+          <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+          <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Controls (Theme Toggle & Mobile Menu) -->
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" type="button" aria-label="Alternar entre tema escuro e claro" title="Alternar tema">
+          <i class="fa-solid fa-moon moon-icon" aria-hidden="true"></i>
+          <i class="fa-solid fa-sun sun-icon" aria-hidden="true"></i>
+        </button>
+
+        <button id="mobile-toggle" class="mobile-toggle-btn" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menu de navegação">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main id="main-content">
+    
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge reveal-fade">
+            <span class="status-indicator"></span>
+            <span>Disponível para novos desafios e inovação</span>
+          </div>
+
+          <h1 class="hero-title reveal-fade">
+            Olá, eu sou <br>
+            <span class="gradient-text">Ítalo Bergamin</span>
+          </h1>
+
+          <!-- Dynamic Typing Text Container -->
+          <div class="typing-container reveal-fade">
+            <span class="terminal-prefix">$</span>
+            <span id="typing-text" class="typing-text">Profissional de Sistemas & Desenvolvimento</span>
+            <span class="typing-cursor" aria-hidden="true">|</span>
+          </div>
+
+          <p class="hero-description reveal-fade">
+            Desenvolvendo soluções criativas, robustas e eficientes na área de tecnologia. 
+            Focado em análise de sistemas, banco de dados, desenvolvimento moderno e inovação contínua.
+          </p>
+
+          <div class="hero-cta-group reveal-fade">
+            <a href="https://github.com/Bergamin1234" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+              <span>Ver Projetos no GitHub</span>
+            </a>
+            <a href="#contato" class="btn btn-secondary">
+              <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+              <span>Entrar em Contato</span>
+            </a>
+          </div>
+
+          <!-- Quick Metric Badges -->
+          <div class="hero-highlights reveal-fade">
+            <div class="highlight-item">
+              <div class="highlight-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+              <div class="highlight-info">
+                <strong>Unisapiens</strong>
+                <span>Sistemas de Informação</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon"><i class="fa-solid fa-building-columns"></i></div>
+              <div class="highlight-info">
+                <strong>Supel Rondônia</strong>
+                <span>Banco de Dados & Sistemas</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon"><i class="fa-solid fa-brain"></i></div>
+              <div class="highlight-info">
+                <strong>Certificado Azure</strong>
+                <span>AI-900 Fundamentos de IA</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Spotlight with Avatar -->
+        <div class="hero-visual reveal-fade">
+          <div class="avatar-spotlight">
+            <div class="avatar-ring avatar-ring-outer"></div>
+            <div class="avatar-ring avatar-ring-inner"></div>
+            <div class="avatar-wrapper">
+              <img src="assets/img/profile.png" alt="Fotografia de perfil profissional de Ítalo Bergamin" class="avatar-img" width="220" height="220">
+            </div>
+            <!-- Floating Feature Pills -->
+            <div class="floating-pill floating-pill-1">
+              <i class="fa-solid fa-database text-cyan"></i>
+              <span>Banco de Dados</span>
+            </div>
+            <div class="floating-pill floating-pill-2">
+              <i class="fa-brands fa-python text-yellow"></i>
+              <span>Python & Dev</span>
+            </div>
+            <div class="floating-pill floating-pill-3">
+              <i class="fa-solid fa-microchip text-indigo"></i>
+              <span>IA & Automação</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Scroll Indicator -->
+      <a href="#sobre" class="scroll-down-indicator" aria-label="Rolar para a seção Sobre">
+        <span class="scroll-mouse">
+          <span class="scroll-wheel"></span>
+        </span>
+        <span class="scroll-text">Explorar</span>
+      </a>
+    </section>
+
+    <!-- ==================== SOBRE MIM ==================== -->
+    <section class="section sobre-section" id="sobre">
+      <div class="container">
+        <div class="section-header reveal-fade">
+          <span class="section-tag"><i class="fa-solid fa-user-astronaut"></i> Quem Sou</span>
+          <h2 class="section-title">Sobre Mim</h2>
+          <p class="section-subtitle">Conheça um pouco da minha visão profissional, valores e dedicação à tecnologia</p>
+        </div>
+
+        <div class="sobre-grid">
+          <!-- Left Column: Biography Card -->
+          <div class="sobre-bio-card glass-card reveal-fade">
+            <div class="quote-header">
+              <i class="fa-solid fa-quote-left quote-icon" aria-hidden="true"></i>
+              <h3 class="bio-headline">Almejando Inovação, Liderança e Soluções Criativas</h3>
+            </div>
+            
+            <p class="bio-text">
+              "Almejo uma oportunidade que me permita desenvolver ainda mais minhas habilidades técnicas e liderança, 
+              enquanto trabalho em um ambiente colaborativo e inovador. Procurando por uma posição que me permita expandir 
+              meu conhecimento em minha área, enquanto contribuo para o desenvolvimento de soluções criativas e eficientes."
+            </p>
+
+            <div class="bio-pillars">
+              <div class="pillar-item">
+                <div class="pillar-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                <div class="pillar-content">
+                  <h4>Criatividade Aplicada</h4>
+                  <p>Soluções inteligentes que transformam complexidade em simplicidade operacional.</p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-icon"><i class="fa-solid fa-people-group"></i></div>
+                <div class="pillar-content">
+                  <h4>Espírito Colaborativo</h4>
+                  <p>Facilidade para atuar em equipes multidisciplinares e compartilhar aprendizados.</p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-icon"><i class="fa-solid fa-rocket"></i></div>
+                <div class="pillar-content">
+                  <h4>Evolução Contínua</h4>
+                  <p>Constante atualização em inteligência artificial, bancos de dados e desenvolvimento de software.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Quick Profile Details & Snapshot -->
+          <div class="sobre-info-card glass-card reveal-fade">
+            <h3 class="card-title"><i class="fa-solid fa-id-card"></i> Informações Essenciais</h3>
+            
+            <ul class="details-list">
+              <li class="detail-item">
+                <span class="detail-label"><i class="fa-solid fa-user"></i> Nome Completo:</span>
+                <span class="detail-value">Ítalo Bergamin</span>
+              </li>
+              <li class="detail-item">
+                <span class="detail-label"><i class="fa-solid fa-graduation-cap"></i> Formação:</span>
+                <span class="detail-value">Sistemas de Informação (Unisapiens)</span>
+              </li>
+              <li class="detail-item">
+                <span class="detail-label"><i class="fa-solid fa-briefcase"></i> Ocupação Atual:</span>
+                <span class="detail-value">Supel Rondônia (Sistemas & BD)</span>
+              </li>
+              <li class="detail-item">
+                <span class="detail-label"><i class="fa-solid fa-location-dot"></i> Localização:</span>
+                <span class="detail-value">Porto Velho, Rondônia - Brasil</span>
+              </li>
+              <li class="detail-item">
+                <span class="detail-label"><i class="fa-solid fa-envelope"></i> E-mail:</span>
+                <a href="mailto:italobergamin321@gmail.com" class="detail-value link-accent">italobergamin321@gmail.com</a>
+              </li>
+              <li class="detail-item">
+                <span class="detail-label"><i class="fa-brands fa-github"></i> GitHub:</span>
+                <a href="https://github.com/Bergamin1234" target="_blank" rel="noopener noreferrer" class="detail-value link-accent">@Bergamin1234</a>
+              </li>
+            </ul>
+
+            <div class="card-footer-cta">
+              <a href="#experiencias" class="btn btn-outline full-width">
+                <span>Ver Experiências Profissionais</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FORMAÇÃO & CURSOS ==================== -->
+    <section class="section formacao-section" id="formacao">
+      <div class="container">
+        <div class="section-header reveal-fade">
+          <span class="section-tag"><i class="fa-solid fa-book-bookmark"></i> Educação & Capacitação</span>
+          <h2 class="section-title">Formação Acadêmica & Cursos</h2>
+          <p class="section-subtitle">Construindo uma base teórica e prática sólida voltada às demandas do mercado moderno</p>
+        </div>
+
+        <!-- Academic Degree Highlight Card -->
+        <div class="academic-highlight glass-card reveal-fade">
+          <div class="academic-badge">Graduação em Andamento</div>
+          <div class="academic-content">
+            <div class="academic-header">
+              <div class="institution-logo-wrap">
+                <i class="fa-solid fa-university academic-icon"></i>
+              </div>
+              <div class="academic-titles">
+                <h3 class="academic-degree">Faculdade Unisapiens</h3>
+                <h4 class="academic-program">Bacharelado em Sistemas de Informação (Noturno)</h4>
+              </div>
+            </div>
+            
+            <div class="academic-meta">
+              <span class="meta-tag"><i class="fa-regular fa-calendar-check"></i> Início em 26/02/2024</span>
+              <span class="meta-tag"><i class="fa-solid fa-clock"></i> Turno: Noturno</span>
+              <span class="meta-tag tag-success"><i class="fa-solid fa-spinner fa-spin"></i> Status: Em andamento</span>
+            </div>
+
+            <p class="academic-summary">
+              Formação superior com foco no desenvolvimento de sistemas, engenharia de software, 
+              administração de bancos de dados, infraestrutura de redes e governança de tecnologia da informação.
+            </p>
+          </div>
+        </div>
+
+        <!-- Featured Courses & Certifications Grid -->
+        <div class="courses-subheading reveal-fade">
+          <h3 class="subheading-title"><i class="fa-solid fa-certificate"></i> Cursos em Destaque & Certificações</h3>
+        </div>
+
+        <div class="courses-grid">
+          <!-- Course 1 -->
+          <div class="course-card glass-card reveal-fade">
+            <div class="course-icon bg-python"><i class="fa-brands fa-python"></i></div>
+            <div class="course-body">
+              <span class="course-platform">Udemy</span>
+              <h4 class="course-title">Programação em Python</h4>
+              <p class="course-desc">Estruturas de dados, lógica algorítmica, programação funcional e automação de scripts.</p>
+              <div class="course-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Lógica</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Course 2 -->
+          <div class="course-card glass-card reveal-fade">
+            <div class="course-icon bg-azure"><i class="fa-brands fa-microsoft"></i></div>
+            <div class="course-body">
+              <span class="course-platform">Microsoft Azure</span>
+              <h4 class="course-title">AI-900 - Fundamentos de IA no Azure</h4>
+              <p class="course-desc">Cargas de trabalho de machine learning, visão computacional, processamento de linguagem natural e IA generativa.</p>
+              <div class="course-tags">
+                <span class="tag">Azure</span>
+                <span class="tag">IA-900</span>
+                <span class="tag">Cloud</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Course 3 -->
+          <div class="course-card glass-card reveal-fade">
+            <div class="course-icon bg-web"><i class="fa-brands fa-html5"></i></div>
+            <div class="course-body">
+              <span class="course-platform">Web Development</span>
+              <h4 class="course-title">Crie um site usando HTML, CSS e JavaScript</h4>
+              <p class="course-desc">Desenvolvimento web moderno, estilização responsiva, semântica e interatividade Vanilla JS.</p>
+              <div class="course-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Course 4 -->
+          <div class="course-card glass-card reveal-fade">
+            <div class="course-icon bg-ai"><i class="fa-solid fa-robot"></i></div>
+            <div class="course-body">
+              <span class="course-platform">Especialização</span>
+              <h4 class="course-title">Fluência em Inteligência Artificial & IA para seu Novo Emprego</h4>
+              <p class="course-desc">Aplicação estratégica de ferramentas de IA generativa, produtividade técnica e preparação de carreira.</p>
+              <div class="course-tags">
+                <span class="tag">GenAI</span>
+                <span class="tag">Produtividade</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Course 5 -->
+          <div class="course-card glass-card reveal-fade">
+            <div class="course-icon bg-code"><i class="fa-solid fa-cubes"></i></div>
+            <div class="course-body">
+              <span class="course-platform">Arquitetura de Software</span>
+              <h4 class="course-title">Introdução à Programação Orientada a Objetos</h4>
+              <p class="course-desc">Pilares de POO: abstração, encapsulamento, herança e polimorfismo aplicados a projetos estruturados.</p>
+              <div class="course-tags">
+                <span class="tag">POO</span>
+                <span class="tag">Arquitetura</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Course 6 -->
+          <div class="course-card glass-card reveal-fade">
+            <div class="course-icon bg-db"><i class="fa-solid fa-database"></i></div>
+            <div class="course-body">
+              <span class="course-platform">Gestão de Dados</span>
+              <h4 class="course-title">Banco de Dados Operacionais e Administração de BD</h4>
+              <p class="course-desc">Modelagem relacional, consultas SQL avançadas, integridade referencial e manutenção administrativa.</p>
+              <div class="course-tags">
+                <span class="tag">SQL</span>
+                <span class="tag">DBA</span>
+                <span class="tag">Queries</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Course 7 -->
+          <div class="course-card glass-card reveal-fade">
+            <div class="course-icon bg-network"><i class="fa-solid fa-network-wired"></i></div>
+            <div class="course-body">
+              <span class="course-platform">Cisco Systems</span>
+              <h4 class="course-title">Curso Cisco Packet Tracer & Informática Básica e Avançada</h4>
+              <p class="course-desc">Simulação de topologias de rede, roteamento, endereçamento IP e fundamentos avançados de computação.</p>
+              <div class="course-tags">
+                <span class="tag">Cisco</span>
+                <span class="tag">Redes</span>
+                <span class="tag">Packet Tracer</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Course 8 -->
+          <div class="course-card glass-card reveal-fade">
+            <div class="course-icon bg-3d"><i class="fa-solid fa-cube"></i></div>
+            <div class="course-body">
+              <span class="course-platform">Design Gráfico & Visual</span>
+              <h4 class="course-title">Modelagem e Animação 3D (Nível Básico)</h4>
+              <p class="course-desc">Construção de geometrias tridimensionais, iluminação, renderização e princípios básicos de animação.</p>
+              <div class="course-tags">
+                <span class="tag">3D</span>
+                <span class="tag">Animação</span>
+                <span class="tag">Design</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Course 9 -->
+          <div class="course-card glass-card reveal-fade">
+            <div class="course-icon bg-github"><i class="fa-brands fa-github"></i></div>
+            <div class="course-body">
+              <span class="course-platform">GitHub & Open Source</span>
+              <h4 class="course-title">Soluções de IA no GitHub</h4>
+              <p class="course-desc">Integração de workflows inteligentes, automações com GitHub Actions e ecossistema de ferramentas modernas.</p>
+              <div class="course-tags">
+                <span class="tag">GitHub</span>
+                <span class="tag">Automação</span>
+                <span class="tag">DevOps</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EXPERIÊNCIAS ==================== -->
+    <section class="section experiencias-section" id="experiencias">
+      <div class="container">
+        <div class="section-header reveal-fade">
+          <span class="section-tag"><i class="fa-solid fa-briefcase"></i> Vivência Profissional</span>
+          <h2 class="section-title">Experiências Profissionais</h2>
+          <p class="section-subtitle">Trajetória prática demonstrando responsabilidade, adaptabilidade e entrega de valor</p>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Timeline Item 1: Supel RO -->
+          <div class="timeline-item reveal-fade">
+            <div class="timeline-marker">
+              <span class="marker-dot active-dot"></span>
+              <span class="marker-pulse"></span>
+            </div>
+            <div class="timeline-card glass-card">
+              <div class="card-badge-row">
+                <span class="badge badge-current">Atualmente</span>
+                <span class="badge badge-role">Setor Público & Tecnologia</span>
+              </div>
+              <h3 class="experience-company">Supel Rondônia</h3>
+              <h4 class="experience-role">Manutenção, Análise e Desenvolvimento de Sistemas e Banco de Dados</h4>
+              <p class="experience-description">
+                Atuação técnica na manutenção preventiva e corretiva, análise e desenvolvimento da infraestrutura de Banco de Dados,
+                sustentação do portal e sistemas web desenvolvidos, além da elaboração e atualização de documentações completas 
+                dos Sistemas Operacionais e rotinas da Superintendência Estadual de Licitações.
+              </p>
+              <div class="experience-skills">
+                <span class="skill-chip"><i class="fa-solid fa-database"></i> Banco de Dados</span>
+                <span class="skill-chip"><i class="fa-solid fa-code"></i> Desenvolvimento Web</span>
+                <span class="skill-chip"><i class="fa-solid fa-file-lines"></i> Documentação Técnica</span>
+                <span class="skill-chip"><i class="fa-brands fa-linux"></i> Sistemas Operacionais</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2: Aprender+ -->
+          <div class="timeline-item reveal-fade">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-card glass-card">
+              <div class="card-badge-row">
+                <span class="badge badge-period">2023 - 2024</span>
+                <span class="badge badge-role">Educação Tecnológica</span>
+              </div>
+              <h3 class="experience-company">Aprender+</h3>
+              <h4 class="experience-role">Marketing e Monitoramento de Aula de Informática</h4>
+              <p class="experience-description">
+                Monitoramento pedagógico e suporte técnico aos alunos em aulas de informática, sanando dúvidas operacionais 
+                e garantindo o bom andamento das atividades em laboratório. Apoio a campanhas e ações de marketing institucional.
+              </p>
+              <div class="experience-skills">
+                <span class="skill-chip"><i class="fa-solid fa-chalkboard-user"></i> Monitoria</span>
+                <span class="skill-chip"><i class="fa-solid fa-desktop"></i> Suporte de Informática</span>
+                <span class="skill-chip"><i class="fa-solid fa-bullhorn"></i> Marketing</span>
+                <span class="skill-chip"><i class="fa-solid fa-comments"></i> Atendimento</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3: Happy -->
+          <div class="timeline-item reveal-fade">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-card glass-card">
+              <div class="card-badge-row">
+                <span class="badge badge-period">Julho/2021 - Fevereiro/2022</span>
+                <span class="badge badge-role">Ensino Criativo</span>
+              </div>
+              <h3 class="experience-company">Happy</h3>
+              <h4 class="experience-role">Professor de Design Criativo e Monitoramento de Aula</h4>
+              <p class="experience-description">
+                Ministração de aulas focadas em design criativo, estimulando o raciocínio visual, resolução de problemas 
+                e aprendizado interativo para alunos. Acompanhamento do progresso individual e mediação pedagógica.
+              </p>
+              <div class="experience-skills">
+                <span class="skill-chip"><i class="fa-solid fa-palette"></i> Design Criativo</span>
+                <span class="skill-chip"><i class="fa-solid fa-graduation-cap"></i> Docência</span>
+                <span class="skill-chip"><i class="fa-solid fa-lightbulb"></i> Comunicação Didática</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 4: Autônomo Design & Dev -->
+          <div class="timeline-item reveal-fade">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-card glass-card">
+              <div class="card-badge-row">
+                <span class="badge badge-period">Autônomo & Freelancer</span>
+                <span class="badge badge-role">Desenvolvimento & Criação</span>
+              </div>
+              <h3 class="experience-company">Projetos Autônomos & Criação Digital</h3>
+              <h4 class="experience-role">Desenvolvedor & Designer Autônomo</h4>
+              <p class="experience-description">
+                Produção e comercialização de ilustrações, criação de fotos, vídeos e peças gráficas digitais. 
+                Execução de commits de manutenção e desenvolvimento de softwares e scripts sob demanda com versionamento Git.
+              </p>
+              <div class="experience-skills">
+                <span class="skill-chip"><i class="fa-brands fa-git-alt"></i> Commits & Manutenção</span>
+                <span class="skill-chip"><i class="fa-solid fa-image"></i> Ilustração & Foto</span>
+                <span class="skill-chip"><i class="fa-solid fa-video"></i> Edição de Vídeo</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 5: Diarista Autônomo -->
+          <div class="timeline-item reveal-fade">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-card glass-card">
+              <div class="card-badge-row">
+                <span class="badge badge-period">Experiência Multidisciplinar</span>
+                <span class="badge badge-role">Atendimento & Vendas</span>
+              </div>
+              <h3 class="experience-company">Diarista Autônomo</h3>
+              <h4 class="experience-role">Fotógrafo, Auxiliar, Atendente e Vendas</h4>
+              <p class="experience-description">
+                Vivência dinâmica e multifacetada no relacionamento com o público, atuação no suporte operacional diário, 
+                negociações comerciais diretas e registros fotográficos profissionais, fortalecendo resiliência e foco no cliente.
+              </p>
+              <div class="experience-skills">
+                <span class="skill-chip"><i class="fa-solid fa-camera"></i> Fotografia</span>
+                <span class="skill-chip"><i class="fa-solid fa-handshake"></i> Vendas Diretas</span>
+                <span class="skill-chip"><i class="fa-solid fa-headset"></i> Atendimento ao Cliente</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== HABILIDADES ==================== -->
+    <section class="section habilidades-section" id="habilidades">
+      <div class="container">
+        <div class="section-header reveal-fade">
+          <span class="section-tag"><i class="fa-solid fa-wand-magic-sparkles"></i> Competências</span>
+          <h2 class="section-title">Habilidades & Conhecimentos</h2>
+          <p class="section-subtitle">O equilíbrio perfeito entre inteligência interpessoal (Soft Skills) e domínio técnico (Hard Skills)</p>
+        </div>
+
+        <div class="skills-wrapper">
+          <!-- Soft Skills Column -->
+          <div class="skills-column glass-card reveal-fade">
+            <div class="column-header">
+              <div class="column-icon bg-soft"><i class="fa-solid fa-heart-pulse"></i></div>
+              <div>
+                <h3 class="column-title">Soft Skills</h3>
+                <p class="column-subtitle">Competências humanas e colaborativas</p>
+              </div>
+            </div>
+
+            <div class="pills-grid">
+              <div class="skill-pill">
+                <span class="pill-icon"><i class="fa-solid fa-comments"></i></span>
+                <span class="pill-name">Boa Comunicação</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-icon"><i class="fa-solid fa-users"></i></span>
+                <span class="pill-name">Trabalho em Equipe</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-icon"><i class="fa-solid fa-bolt"></i></span>
+                <span class="pill-name">Proativo</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-icon"><i class="fa-solid fa-lightbulb"></i></span>
+                <span class="pill-name">Criativo</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-icon"><i class="fa-solid fa-route"></i></span>
+                <span class="pill-name">Liderança Colaborativa</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-icon"><i class="fa-solid fa-puzzle-piece"></i></span>
+                <span class="pill-name">Resolução de Problemas</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-icon"><i class="fa-solid fa-arrows-spin"></i></span>
+                <span class="pill-name">Adaptabilidade</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-icon"><i class="fa-solid fa-award"></i></span>
+                <span class="pill-name">Foco em Resultados</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hard Skills Column -->
+          <div class="skills-column glass-card reveal-fade">
+            <div class="column-header">
+              <div class="column-icon bg-hard"><i class="fa-solid fa-terminal"></i></div>
+              <div>
+                <h3 class="column-title">Hard Skills</h3>
+                <p class="column-subtitle">Domínio prático e técnico de tecnologias</p>
+              </div>
+            </div>
+
+            <div class="hard-skills-list">
+              <!-- Hard Skill 1 -->
+              <div class="hard-skill-card">
+                <div class="hard-skill-header">
+                  <div class="hard-skill-info">
+                    <i class="fa-brands fa-python skill-logo text-yellow"></i>
+                    <div>
+                      <strong>Python</strong>
+                      <span class="skill-cat">Lógica, Automação & POO</span>
+                    </div>
+                  </div>
+                  <span class="skill-level-badge">Avançado</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="progress-fill" style="--progress-width: 85%;"></div>
+                </div>
+              </div>
+
+              <!-- Hard Skill 2 -->
+              <div class="hard-skill-card">
+                <div class="hard-skill-header">
+                  <div class="hard-skill-info">
+                    <i class="fa-brands fa-html5 skill-logo text-cyan"></i>
+                    <div>
+                      <strong>HTML5 / CSS3 / JavaScript</strong>
+                      <span class="skill-cat">Frontend Moderno & Responsividade</span>
+                    </div>
+                  </div>
+                  <span class="skill-level-badge">Avançado</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="progress-fill" style="--progress-width: 90%;"></div>
+                </div>
+              </div>
+
+              <!-- Hard Skill 3 -->
+              <div class="hard-skill-card">
+                <div class="hard-skill-header">
+                  <div class="hard-skill-info">
+                    <i class="fa-solid fa-database skill-logo text-indigo"></i>
+                    <div>
+                      <strong>Banco de Dados & SQL</strong>
+                      <span class="skill-cat">Modelagem, Consultas & Administração</span>
+                    </div>
+                  </div>
+                  <span class="skill-level-badge">Sólido</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="progress-fill" style="--progress-width: 82%;"></div>
+                </div>
+              </div>
+
+              <!-- Hard Skill 4 -->
+              <div class="hard-skill-card">
+                <div class="hard-skill-header">
+                  <div class="hard-skill-info">
+                    <i class="fa-solid fa-microchip skill-logo text-purple"></i>
+                    <div>
+                      <strong>Inteligência Artificial (Azure AI-900)</strong>
+                      <span class="skill-cat">GenAI, Soluções no GitHub & Cloud</span>
+                    </div>
+                  </div>
+                  <span class="skill-level-badge">Certificado</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="progress-fill" style="--progress-width: 80%;"></div>
+                </div>
+              </div>
+
+              <!-- Hard Skill 5 -->
+              <div class="hard-skill-card">
+                <div class="hard-skill-header">
+                  <div class="hard-skill-info">
+                    <i class="fa-solid fa-network-wired skill-logo text-emerald"></i>
+                    <div>
+                      <strong>Redes & Infraestrutura</strong>
+                      <span class="skill-cat">Cisco Packet Tracer & Topologias</span>
+                    </div>
+                  </div>
+                  <span class="skill-level-badge">Prático</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="progress-fill" style="--progress-width: 75%;"></div>
+                </div>
+              </div>
+
+              <!-- Hard Skill 6 -->
+              <div class="hard-skill-card">
+                <div class="hard-skill-header">
+                  <div class="hard-skill-info">
+                    <i class="fa-brands fa-git-alt skill-logo text-orange"></i>
+                    <div>
+                      <strong>Git, GitHub & Versionamento</strong>
+                      <span class="skill-cat">Commits Semânticos, Branches & CI/CD</span>
+                    </div>
+                  </div>
+                  <span class="skill-level-badge">Avançado</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="progress-fill" style="--progress-width: 88%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PROJETOS NO GITHUB ==================== -->
+    <section class="section projetos-section" id="projetos">
+      <div class="container">
+        <div class="section-header reveal-fade">
+          <span class="section-tag"><i class="fa-brands fa-github"></i> Portfólio de Código</span>
+          <h2 class="section-title">Projetos em Destaque</h2>
+          <p class="section-subtitle">Repositórios públicos e soluções reais criadas e mantidas no GitHub</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: SUSY Supel -->
+          <div class="project-card glass-card reveal-fade">
+            <div class="project-badge">Institucional</div>
+            <div class="project-header">
+              <i class="fa-solid fa-building-columns project-type-icon"></i>
+              <div class="project-links">
+                <a href="https://github.com/Bergamin1234/susy.supel.ro.gov.br" target="_blank" rel="noopener noreferrer" class="icon-link" title="Ver código no GitHub" aria-label="Ver projeto no GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">susy.supel.ro.gov.br</h3>
+            <p class="project-description">
+              Sistema web institucional desenvolvido para a Superintendência Estadual de Licitações de Rondônia (Supel-RO), 
+              contemplando banco de dados, documentação e suporte operacional.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Governo / Supel</span>
+              <span class="tag">Banco de Dados</span>
+              <span class="tag">Sistemas Web</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/Bergamin1234/susy.supel.ro.gov.br" target="_blank" rel="noopener noreferrer" class="link-arrow">
+                <span>Explorar Repositório</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 2: Bolso em Dia -->
+          <div class="project-card glass-card reveal-fade">
+            <div class="project-badge">Finanças</div>
+            <div class="project-header">
+              <i class="fa-solid fa-wallet project-type-icon"></i>
+              <div class="project-links">
+                <a href="https://github.com/Bergamin1234/bolso-em-dia" target="_blank" rel="noopener noreferrer" class="icon-link" title="Ver código no GitHub" aria-label="Ver projeto no GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">bolso-em-dia</h3>
+            <p class="project-description">
+              Aplicação de gestão financeira pessoal e controle orçamentário. Foco em experiência intuitiva, 
+              lançamento de receitas e despesas e organização de metas financeiras.
+            </p>
+            <div class="project-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">FinTech</span>
+              <span class="tag">UI/UX</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/Bergamin1234/bolso-em-dia" target="_blank" rel="noopener noreferrer" class="link-arrow">
+                <span>Explorar Repositório</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 3: Calculadora Rescisão -->
+          <div class="project-card glass-card reveal-fade">
+            <div class="project-badge">Web App</div>
+            <div class="project-header">
+              <i class="fa-solid fa-calculator project-type-icon"></i>
+              <div class="project-links">
+                <a href="https://github.com/Bergamin1234/calculadora-rescisao" target="_blank" rel="noopener noreferrer" class="icon-link" title="Ver código no GitHub" aria-label="Ver projeto no GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">calculadora-rescisao</h3>
+            <p class="project-description">
+              Calculadora online de rescisão trabalhista segundo as diretrizes da CLT. 
+              Realiza cálculos detalhados de saldo de salário, 13º, férias e multa do FGTS.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Vanilla JS</span>
+              <span class="tag">Cálculos CLT</span>
+              <span class="tag">Clean UI</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/Bergamin1234/calculadora-rescisao" target="_blank" rel="noopener noreferrer" class="link-arrow">
+                <span>Explorar Repositório</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 4: Publicador de Atas -->
+          <div class="project-card glass-card reveal-fade">
+            <div class="project-badge">Automação</div>
+            <div class="project-header">
+              <i class="fa-solid fa-file-contract project-type-icon"></i>
+              <div class="project-links">
+                <a href="https://github.com/Bergamin1234/PublicadorDeAtas" target="_blank" rel="noopener noreferrer" class="icon-link" title="Ver código no GitHub" aria-label="Ver projeto no GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">PublicadorDeAtas</h3>
+            <p class="project-description">
+              Ferramenta focada na automação e padronização da publicação de atas oficiais, 
+              otimizando processos repetitivos de documentação e envio em conformidade.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Automação</span>
+              <span class="tag">Documentação</span>
+              <span class="tag">Produtividade</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/Bergamin1234/PublicadorDeAtas" target="_blank" rel="noopener noreferrer" class="link-arrow">
+                <span>Explorar Repositório</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="all-projects-cta reveal-fade">
+          <a href="https://github.com/Bergamin1234?tab=repositories" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+            <i class="fa-brands fa-github"></i>
+            <span>Ver Todos os Repositórios no GitHub</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTATO ==================== -->
+    <section class="section contato-section" id="contato">
+      <div class="container">
+        <div class="section-header reveal-fade">
+          <span class="section-tag"><i class="fa-solid fa-paper-plane"></i> Conexão Direta</span>
+          <h2 class="section-title">Vamos Conversar?</h2>
+          <p class="section-subtitle">Estou à disposição para oportunidades profissionais, parcerias e novos desafios em tecnologia</p>
+        </div>
+
+        <div class="contato-grid">
+          <!-- Contact Cards Info -->
+          <div class="contato-info-list reveal-fade">
+            <!-- Email -->
+            <a href="mailto:italobergamin321@gmail.com" class="contact-card glass-card">
+              <div class="contact-icon bg-email"><i class="fa-solid fa-envelope"></i></div>
+              <div class="contact-details">
+                <span class="contact-type">E-mail Profissional</span>
+                <strong class="contact-value">italobergamin321@gmail.com</strong>
+                <span class="contact-action">Clique para enviar uma mensagem</span>
+              </div>
+            </a>
+
+            <!-- Phone / WhatsApp -->
+            <a href="https://wa.me/5569984587874" target="_blank" rel="noopener noreferrer" class="contact-card glass-card">
+              <div class="contact-icon bg-whatsapp"><i class="fa-brands fa-whatsapp"></i></div>
+              <div class="contact-details">
+                <span class="contact-type">Telefone & WhatsApp</span>
+                <strong class="contact-value">(69) 98458-7874</strong>
+                <span class="contact-action">Converse diretamente via WhatsApp</span>
+              </div>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/Bergamin1234" target="_blank" rel="noopener noreferrer" class="contact-card glass-card">
+              <div class="contact-icon bg-github-contact"><i class="fa-brands fa-github"></i></div>
+              <div class="contact-details">
+                <span class="contact-type">Perfil no GitHub</span>
+                <strong class="contact-value">Bergamin1234</strong>
+                <span class="contact-action">Veja repositórios e contribuições</span>
+              </div>
+            </a>
+
+            <!-- Location -->
+            <div class="contact-card glass-card">
+              <div class="contact-icon bg-location"><i class="fa-solid fa-map-location-dot"></i></div>
+              <div class="contact-details">
+                <span class="contact-type">Localização</span>
+                <strong class="contact-value">Rua Abnatal Bentes de Lima, 687</strong>
+                <span class="contact-action">Porto Velho, Rondônia - Brasil</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="contato-form-wrapper glass-card reveal-fade">
+            <h3 class="form-title"><i class="fa-solid fa-message"></i> Envie uma Mensagem Rápida</h3>
+            <p class="form-instruction">Preencha o formulário abaixo para abrir diretamente seu cliente de e-mail pronto para envio:</p>
+
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="form-name" class="form-label">Seu Nome *</label>
+                <div class="input-wrap">
+                  <i class="fa-solid fa-user input-icon"></i>
+                  <input type="text" id="form-name" name="name" class="form-input" placeholder="Ex: Maria Silva" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email" class="form-label">Seu E-mail *</label>
+                <div class="input-wrap">
+                  <i class="fa-solid fa-envelope input-icon"></i>
+                  <input type="email" id="form-email" name="email" class="form-input" placeholder="Ex: maria@empresa.com" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject" class="form-label">Assunto *</label>
+                <div class="input-wrap">
+                  <i class="fa-solid fa-tag input-icon"></i>
+                  <input type="text" id="form-subject" name="subject" class="form-input" placeholder="Ex: Oportunidade em Desenvolvimento / Sistemas" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Mensagem *</label>
+                <div class="input-wrap textarea-wrap">
+                  <i class="fa-solid fa-comment-dots input-icon"></i>
+                  <textarea id="form-message" name="message" class="form-input form-textarea" rows="4" placeholder="Escreva sua proposta ou mensagem aqui..." required></textarea>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary full-width submit-btn">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span>Enviar Mensagem Agora</span>
+              </button>
+
+              <div id="form-feedback" class="form-feedback" role="alert" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="brand-logo footer-logo">
+            <span class="logo-bracket">&lt;</span>
+            <span class="logo-text">Ítalo Bergamin</span>
+            <span class="logo-slash">&#47;&gt;</span>
+          </a>
+          <p class="footer-tagline">
+            Sistemas de Informação • Unisapiens • Supel Rondônia • Desenvolvimento de Soluções Criativas
+          </p>
+        </div>
+
+        <div class="footer-nav">
+          <h4 class="footer-title">Navegação Rápida</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#experiencias">Experiências</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h4 class="footer-title">Canais & Redes</h4>
+          <div class="social-icons">
+            <a href="https://github.com/Bergamin1234" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub de Ítalo Bergamin">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://wa.me/5569984587874" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="WhatsApp de Ítalo Bergamin">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="mailto:italobergamin321@gmail.com" class="social-btn" aria-label="E-mail de Ítalo Bergamin">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          © 2026 <strong>Ítalo Bergamin</strong>. Todos os direitos reservados.
+        </p>
+        <p class="footer-built">
+          Desenvolvido com <i class="fa-solid fa-heart heart-pulse"></i>, HTML5, CSS3 Moderno & Vanilla JavaScript.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button id="back-to-top" class="back-to-top" type="button" aria-label="Voltar ao topo da página" title="Voltar ao topo">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Main JavaScript File -->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
