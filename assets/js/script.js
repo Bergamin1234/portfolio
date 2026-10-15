@@ -307,7 +307,55 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   /* ------------------------------------------------------------------------
-     8. CONSOLE GREETING FOR DEVELOPERS
+     8. CLIPBOARD COPY UTILITY & TOAST NOTIFICATION
+     ------------------------------------------------------------------------ */
+  const toast = document.getElementById('toast');
+  let toastTimeout = null;
+
+  const showToast = (message, icon = 'fa-circle-check') => {
+    if (!toast) return;
+    toast.innerHTML = `<i class="fa-solid ${icon}"></i> <span>${message}</span>`;
+    toast.classList.add('active');
+
+    if (toastTimeout) {
+      clearTimeout(toastTimeout);
+    }
+
+    toastTimeout = setTimeout(() => {
+      toast.classList.remove('active');
+    }, 2800);
+  };
+
+  const copyButtons = document.querySelectorAll('.btn-copy');
+  copyButtons.forEach((btn) => {
+    btn.addEventListener('click', async (e) => {
+      e.preventDefault();
+      const textToCopy = btn.getAttribute('data-copy');
+      if (!textToCopy) return;
+
+      try {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          await navigator.clipboard.writeText(textToCopy);
+        } else {
+          // Fallback for older browsers
+          const tempInput = document.createElement('textarea');
+          tempInput.value = textToCopy;
+          tempInput.style.position = 'fixed';
+          tempInput.style.opacity = '0';
+          document.body.appendChild(tempInput);
+          tempInput.select();
+          document.execCommand('copy');
+          document.body.removeChild(tempInput);
+        }
+        showToast(`Copiado: ${textToCopy}`);
+      } catch (err) {
+        showToast('Não foi possível copiar automaticamente.', 'fa-circle-exclamation');
+      }
+    });
+  });
+
+  /* ------------------------------------------------------------------------
+     9. CONSOLE GREETING FOR DEVELOPERS
      ------------------------------------------------------------------------ */
   console.log(
     '%c< Ítalo Bergamin />%c Portfólio Desenvolvido com Sucesso! 🚀\nTecnologias: HTML5 Semântico, CSS3 Moderno & Vanilla JavaScript.\nGitHub: https://github.com/Bergamin1234',
