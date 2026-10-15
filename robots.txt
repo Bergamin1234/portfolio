@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://Bergamin1234.github.io/portfolio/sitemap.xml
