@@ -12,7 +12,7 @@
   <strong>Website moderno, responsivo e de alta performance desenvolvido para destacar trajetórias, projetos e competências em tecnologia.</strong>
 </p>
 
-[🌐 Acessar Portfólio](#) • [📂 Ver Projetos](https://github.com/Bergamin1234) • [📫 Entrar em Contato](mailto:italobergamin321@gmail.com)
+[🌐 Acessar Portfólio Online](https://bergamin1234.github.io/portfolio/) • [📂 Ver Projetos no GitHub](https://github.com/Bergamin1234) • [📫 Entrar em Contato](mailto:italobergamin321@gmail.com)
 
 </div>
 
@@ -42,20 +42,21 @@
 
 ```bash
 portfolio/
-├── .github/
-│   └── workflows/
-│       └── deploy.yml        # Automação de deploy contínuo no GitHub Pages
 ├── assets/
 │   ├── css/
-│   │   └── style.css         # Design system, temas, layouts e animações
+│   │   └── style.css         # Design system, temas, layouts, print e animações
 │   ├── js/
-│   │   └── script.js         # Lógica de temas, scroll reveal, menu e interações
+│   │   └── script.js         # Engine de temas, scroll reveal, menu e interações
 │   └── img/
 │       ├── favicon.svg       # Favicon vetorial com gradiente neon
 │       └── profile.png       # Fotografia oficial de perfil
 ├── .gitignore                # Arquivos ignorados pelo controle de versão
+├── CONTRIBUTING.md           # Diretrizes de colaboração e padrões do projeto
+├── LICENSE                   # Licença aberta MIT
+├── README.md                 # Documentação técnica e guia do projeto
 ├── index.html                # Estrutura semântica principal da aplicação
-└── README.md                 # Documentação técnica e guia do projeto
+├── robots.txt                # Configuração para rastreadores de busca
+└── sitemap.xml               # Mapa do site para indexação Google
 ```
 
 ---
