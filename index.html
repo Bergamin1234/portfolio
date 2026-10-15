@@ -31,6 +31,36 @@
 
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- JSON-LD Structured Data (Schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Ítalo Bergamin",
+      "jobTitle": "Profissional de Sistemas & Desenvolvimento",
+      "alumniOf": "Faculdade Unisapiens",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Supel Rondônia"
+      },
+      "url": "https://Bergamin1234.github.io/portfolio/",
+      "image": "https://Bergamin1234.github.io/portfolio/assets/img/profile.png",
+      "sameAs": [
+        "https://github.com/Bergamin1234"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua Abnatal Bentes de Lima, 687",
+        "addressLocality": "Porto Velho",
+        "addressRegion": "Rondônia",
+        "addressCountry": "BR"
+      }
+    }
+  }
+  </script>
 </head>
 <body>
   <!-- Skip to Content Link (Accessibility) -->
@@ -908,34 +938,48 @@
           <!-- Contact Cards Info -->
           <div class="contato-info-list reveal-fade">
             <!-- Email -->
-            <a href="mailto:italobergamin321@gmail.com" class="contact-card glass-card">
+            <div class="contact-card glass-card">
               <div class="contact-icon bg-email"><i class="fa-solid fa-envelope"></i></div>
               <div class="contact-details">
                 <span class="contact-type">E-mail Profissional</span>
                 <strong class="contact-value">italobergamin321@gmail.com</strong>
-                <span class="contact-action">Clique para enviar uma mensagem</span>
+                <div class="contact-actions-row">
+                  <a href="mailto:italobergamin321@gmail.com" class="contact-action-link"><i class="fa-solid fa-paper-plane"></i> Enviar</a>
+                  <button type="button" class="btn-copy" data-copy="italobergamin321@gmail.com" aria-label="Copiar e-mail" title="Copiar e-mail">
+                    <i class="fa-regular fa-copy"></i> Copiar
+                  </button>
+                </div>
               </div>
-            </a>
+            </div>
 
             <!-- Phone / WhatsApp -->
-            <a href="https://wa.me/5569984587874" target="_blank" rel="noopener noreferrer" class="contact-card glass-card">
+            <div class="contact-card glass-card">
               <div class="contact-icon bg-whatsapp"><i class="fa-brands fa-whatsapp"></i></div>
               <div class="contact-details">
                 <span class="contact-type">Telefone & WhatsApp</span>
                 <strong class="contact-value">(69) 98458-7874</strong>
-                <span class="contact-action">Converse diretamente via WhatsApp</span>
+                <div class="contact-actions-row">
+                  <a href="https://wa.me/5569984587874" target="_blank" rel="noopener noreferrer" class="contact-action-link"><i class="fa-brands fa-whatsapp"></i> Conversar</a>
+                  <button type="button" class="btn-copy" data-copy="(69) 98458-7874" aria-label="Copiar telefone" title="Copiar telefone">
+                    <i class="fa-regular fa-copy"></i> Copiar
+                  </button>
+                </div>
               </div>
-            </a>
+            </div>
 
             <!-- GitHub -->
-            <a href="https://github.com/Bergamin1234" target="_blank" rel="noopener noreferrer" class="contact-card glass-card">
+            <div class="contact-card glass-card">
               <div class="contact-icon bg-github-contact"><i class="fa-brands fa-github"></i></div>
               <div class="contact-details">
                 <span class="contact-type">Perfil no GitHub</span>
                 <strong class="contact-value">Bergamin1234</strong>
-                <span class="contact-action">Veja repositórios e contribuições</span>
+                <div class="contact-actions-row">
+                  <a href="https://github.com/Bergamin1234" target="_blank" rel="noopener noreferrer" class="contact-action-link">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Acessar Perfil
+                  </a>
+                </div>
               </div>
-            </a>
+            </div>
 
             <!-- Location -->
             <div class="contact-card glass-card">
@@ -1059,6 +1103,9 @@
   <button id="back-to-top" class="back-to-top" type="button" aria-label="Voltar ao topo da página" title="Voltar ao topo">
     <i class="fa-solid fa-arrow-up"></i>
   </button>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast-notification" role="status" aria-live="polite"></div>
 
   <!-- Main JavaScript File -->
   <script src="assets/js/script.js"></script>
