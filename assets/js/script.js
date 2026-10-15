@@ -75,11 +75,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const typingElement = document.getElementById('typing-text');
   if (typingElement) {
     const phrases = [
-      'Profissional de Sistemas & Desenvolvimento',
-      'Graduando em Sistemas de Informação',
-      'Especialista em Banco de Dados & SQL',
-      'Inovação na Supel Rondônia',
-      'Soluções Criativas com IA & Python'
+      'Estudante de Sistemas de Informação',
+      'Atuação em Banco de Dados & Sistemas Web',
+      'Desenvolvimento com Python, HTML, CSS & JS',
+      'Certificação Azure AI-900',
+      'Acadêmico na Faculdade Unisapiens'
     ];
 
     let phraseIndex = 0;
