@@ -1684,10 +1684,89 @@ input, textarea {
   word-break: break-all;
 }
 
-.contact-action {
-  font-size: 0.75rem;
+.contact-actions-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.contact-action-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.8rem;
+  font-weight: 600;
   color: var(--accent-cyan);
-  margin-top: 0.2rem;
+  background: rgba(var(--accent-cyan-rgb), 0.1);
+  border: 1px solid rgba(var(--accent-cyan-rgb), 0.25);
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-full);
+  transition: all var(--transition-fast);
+}
+
+.contact-action-link:hover {
+  background: var(--accent-cyan);
+  color: var(--text-inverse);
+  transform: translateY(-2px);
+}
+
+.btn-copy {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-glass);
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-full);
+  transition: all var(--transition-fast);
+}
+
+.btn-copy:hover {
+  background: rgba(var(--accent-cyan-rgb), 0.15);
+  color: var(--accent-cyan);
+  border-color: var(--accent-cyan);
+  transform: translateY(-2px);
+}
+
+/* Toast Notification */
+.toast-notification {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(100px);
+  background: rgba(13, 21, 39, 0.95);
+  color: var(--text-primary);
+  border: 1px solid var(--accent-cyan);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5), var(--shadow-neon-cyan);
+  backdrop-filter: blur(16px);
+  padding: 0.85rem 1.6rem;
+  border-radius: var(--radius-full);
+  font-size: 0.9rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: transform var(--transition-normal), opacity var(--transition-normal);
+  pointer-events: none;
+}
+
+[data-theme="light"] .toast-notification {
+  background: rgba(255, 255, 255, 0.95);
+  color: var(--text-primary);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15), var(--shadow-neon-cyan);
+}
+
+.toast-notification.active {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+  visibility: visible;
 }
 
 /* Contact Form */
@@ -2184,3 +2263,85 @@ input, textarea {
     height: 42px;
   }
 }
+
+/* --------------------------------------------------------------------------
+   18. CUSTOM SCROLLBARS (MODERN WEB)
+   -------------------------------------------------------------------------- */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-tertiary);
+  border-radius: var(--radius-full);
+  border: 2px solid var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-cyan);
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--bg-tertiary) var(--bg-primary);
+}
+
+/* --------------------------------------------------------------------------
+   19. ACCESSIBILITY: FOCUS-VISIBLE INDICATOR
+   -------------------------------------------------------------------------- */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--accent-cyan);
+  outline-offset: 3px;
+}
+
+/* --------------------------------------------------------------------------
+   20. PRINT STYLESHEET (PDF RESUME EXPORT)
+   -------------------------------------------------------------------------- */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  .site-header,
+  .ambient-glow,
+  .hero-cta-group,
+  .scroll-down-indicator,
+  .back-to-top,
+  .theme-toggle-btn,
+  .contato-form-wrapper,
+  .all-projects-cta,
+  .social-icons {
+    display: none !important;
+  }
+
+  .section {
+    padding: 1.5rem 0 !important;
+    page-break-inside: avoid;
+  }
+
+  .glass-card {
+    background: transparent !important;
+    border: 1px solid #cccccc !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+  }
+
+  .section-title {
+    -webkit-text-fill-color: #000000 !important;
+    color: #000000 !important;
+  }
+
+  .avatar-spotlight {
+    display: none !important;
+  }
+}
+
