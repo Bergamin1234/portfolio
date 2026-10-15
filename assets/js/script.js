@@ -40,14 +40,27 @@ document.addEventListener('DOMContentLoaded', () => {
   const initialTheme = getPreferredTheme();
   applyTheme(initialTheme);
 
+  const toggleTheme = () => {
+    const currentTheme = htmlRoot.getAttribute('data-theme') || 'dark';
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    applyTheme(newTheme);
+    if (typeof showToast === 'function') {
+      showToast(`Tema alterado para: ${newTheme === 'dark' ? 'Modo Escuro 🌙' : 'Modo Claro ☀️'}`);
+    }
+  };
+
   // Toggle button event
   if (themeToggleBtn) {
-    themeToggleBtn.addEventListener('click', () => {
-      const currentTheme = htmlRoot.getAttribute('data-theme') || 'dark';
-      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-      applyTheme(newTheme);
-    });
+    themeToggleBtn.addEventListener('click', toggleTheme);
   }
+
+  // Keyboard shortcut: Alt + T to toggle theme
+  window.addEventListener('keydown', (e) => {
+    if (e.altKey && (e.key === 't' || e.key === 'T')) {
+      e.preventDefault();
+      toggleTheme();
+    }
+  });
 
   // Listen for system theme changes if user has no stored preference
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
@@ -312,7 +325,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const toast = document.getElementById('toast');
   let toastTimeout = null;
 
-  const showToast = (message, icon = 'fa-circle-check') => {
+  function showToast(message, icon = 'fa-circle-check') {
     if (!toast) return;
     toast.innerHTML = `<i class="fa-solid ${icon}"></i> <span>${message}</span>`;
     toast.classList.add('active');
@@ -324,7 +337,7 @@ document.addEventListener('DOMContentLoaded', () => {
     toastTimeout = setTimeout(() => {
       toast.classList.remove('active');
     }, 2800);
-  };
+  }
 
   const copyButtons = document.querySelectorAll('.btn-copy');
   copyButtons.forEach((btn) => {
