@@ -1,0 +1,246 @@
+{
+  "updatedAt": "2026-11-18T16:00:00Z",
+  "profile": {
+    "badge": "Estudante de Sistemas de Informação • Unisapiens",
+    "heroDescription": "Graduando em Sistemas de Informação com vivência prática em banco de dados, sustentação de sistemas e desenvolvimento web. Focado em aprimorar constantemente minhas competências técnicas e contribuir com responsabilidade em projetos colaborativos.",
+    "typingPhrases": [
+      "Estudante de Sistemas de Informação",
+      "Atuação em Banco de Dados & Sistemas Web",
+      "Desenvolvimento com Python, HTML, CSS & JS",
+      "Certificação Azure AI-900",
+      "Acadêmico na Faculdade Unisapiens"
+    ],
+    "aboutHeadline": "Dedicação, Aprendizado Contínuo e Compromisso com a Qualidade",
+    "aboutBio": "Almejo uma oportunidade que me permita desenvolver ainda mais minhas habilidades técnicas e liderança, enquanto trabalho em um ambiente colaborativo e inovador. Procurando por uma posição que me permita expandir meu conhecimento em minha área, enquanto contribuo para o desenvolvimento de soluções criativas e eficientes.",
+    "phone": "(69) 98458-7874",
+    "whatsappNumber": "5569984587874",
+    "email": "italobergamin321@gmail.com",
+    "address": "Rua Abnatal Bentes de Lima, 687",
+    "city": "Porto Velho, Rondônia - Brasil"
+  },
+  "courses": [
+    {
+      "platform": "Udemy",
+      "title": "Programação em Python",
+      "description": "Estruturas de dados, lógica algorítmica, programação funcional e automação de scripts.",
+      "tags": ["Python", "Lógica"],
+      "icon": "fa-brands fa-python",
+      "colorClass": "bg-python"
+    },
+    {
+      "platform": "Microsoft Azure",
+      "title": "AI-900 - Fundamentos de IA no Azure",
+      "description": "Cargas de trabalho de machine learning, visão computacional, processamento de linguagem natural e IA generativa.",
+      "tags": ["Azure", "IA-900", "Cloud"],
+      "icon": "fa-brands fa-microsoft",
+      "colorClass": "bg-azure"
+    },
+    {
+      "platform": "Web Development",
+      "title": "Crie um site usando HTML, CSS e JavaScript",
+      "description": "Desenvolvimento web moderno, estilização responsiva, semântica e interatividade Vanilla JS.",
+      "tags": ["HTML5", "CSS3", "JavaScript"],
+      "icon": "fa-brands fa-html5",
+      "colorClass": "bg-web"
+    },
+    {
+      "platform": "Extensão & Carreira",
+      "title": "Fluência em Inteligência Artificial & IA para seu Novo Emprego",
+      "description": "Aplicação estratégica de ferramentas de IA generativa, produtividade técnica e preparação de carreira.",
+      "tags": ["GenAI", "Produtividade"],
+      "icon": "fa-solid fa-robot",
+      "colorClass": "bg-ai"
+    },
+    {
+      "platform": "Arquitetura de Software",
+      "title": "Introdução à Programação Orientada a Objetos",
+      "description": "Pilares de POO: abstração, encapsulamento, herança e polimorfismo aplicados a projetos estruturados.",
+      "tags": ["POO", "Arquitetura"],
+      "icon": "fa-solid fa-cubes",
+      "colorClass": "bg-code"
+    },
+    {
+      "platform": "Gestão de Dados",
+      "title": "Banco de Dados Operacionais e Administração de BD",
+      "description": "Modelagem relacional, consultas SQL avançadas, integridade referencial e manutenção administrativa.",
+      "tags": ["SQL", "DBA", "Queries"],
+      "icon": "fa-solid fa-database",
+      "colorClass": "bg-db"
+    },
+    {
+      "platform": "Cisco Systems",
+      "title": "Curso Cisco Packet Tracer & Informática Básica e Avançada",
+      "description": "Simulação de topologias de rede, roteamento, endereçamento IP e fundamentos avançados de computação.",
+      "tags": ["Cisco", "Redes", "Packet Tracer"],
+      "icon": "fa-solid fa-network-wired",
+      "colorClass": "bg-network"
+    },
+    {
+      "platform": "Design Gráfico & Visual",
+      "title": "Modelagem e Animação 3D (Nível Básico)",
+      "description": "Construção de geometrias tridimensionais, iluminação, renderização e princípios básicos de animação.",
+      "tags": ["3D", "Animação", "Design"],
+      "icon": "fa-solid fa-cube",
+      "colorClass": "bg-3d"
+    },
+    {
+      "platform": "GitHub & Open Source",
+      "title": "Soluções de IA no GitHub",
+      "description": "Integração de workflows inteligentes, automações com GitHub Actions e ecossistema de ferramentas modernas.",
+      "tags": ["GitHub", "Automação", "DevOps"],
+      "icon": "fa-brands fa-github",
+      "colorClass": "bg-github"
+    }
+  ],
+  "experiences": [
+    {
+      "period": "Atualmente",
+      "isCurrent": true,
+      "category": "Órgão Público Estadual",
+      "company": "Superintendência Estadual de Licitações (Supel Rondônia)",
+      "role": "Apoio Técnico em Manutenção, Análise de Banco de Dados e Sistemas",
+      "description": "Atuação na manutenção preventiva e corretiva, análise e suporte a bancos de dados, auxílio no desenvolvimento e sustentação de páginas e documentações técnicas dos sistemas operacionais da Superintendência Estadual de Licitações.",
+      "skills": ["Banco de Dados", "Desenvolvimento Web", "Documentação Técnica", "Sistemas Operacionais"]
+    },
+    {
+      "period": "2023 - 2024",
+      "isCurrent": false,
+      "category": "Educação Tecnológica",
+      "company": "Aprender+",
+      "role": "Monitor de Informática e Apoio Operacional",
+      "description": "Suporte aos alunos durante as atividades práticas de informática básica e avançada, esclarecimento de dúvidas operacionais e auxílio em tarefas de comunicação e divulgação institucional.",
+      "skills": ["Monitoria", "Suporte de Informática", "Comunicação", "Atendimento"]
+    },
+    {
+      "period": "Julho/2021 - Fevereiro/2022",
+      "isCurrent": false,
+      "category": "Ensino de Design",
+      "company": "Happy",
+      "role": "Instrutor de Design Criativo e Monitor de Aulas",
+      "description": "Condução de atividades práticas introdutórias em design visual e criatividade, orientação individual aos estudantes e acompanhamento pedagógico.",
+      "skills": ["Design Criativo", "Ensino", "Comunicação Didática"]
+    },
+    {
+      "period": "Atuação Autônoma",
+      "isCurrent": false,
+      "category": "Design & Código",
+      "company": "Atuação Autônoma em Design e Desenvolvimento",
+      "role": "Prestação de Serviços Autônomos",
+      "description": "Criação de materiais visuais sob demanda (ilustrações, fotografia e edição de vídeo) e realização de manutenções e ajustes pontuais em código com versionamento Git.",
+      "skills": ["Versionamento Git", "Ilustração & Foto", "Edição Audiovisual"]
+    },
+    {
+      "period": "Atuação Autônoma",
+      "isCurrent": false,
+      "category": "Atendimento & Vendas",
+      "company": "Atuação Multidisciplinar",
+      "role": "Atendimento ao Público, Vendas e Registros Fotográficos",
+      "description": "Atuação dinâmica em atendimento presencial a clientes, apoio operacional e serviços fotográficos, consolidando responsabilidade, pontualidade e relacionamento interpessoal.",
+      "skills": ["Fotografia", "Vendas Diretas", "Atendimento ao Cliente"]
+    }
+  ],
+  "softSkills": [
+    "Comunicação Clara",
+    "Trabalho em Equipe",
+    "Postura Proativa",
+    "Pensamento Criativo",
+    "Responsabilidade",
+    "Resolução de Problemas",
+    "Adaptabilidade",
+    "Vontade de Aprender"
+  ],
+  "hardSkills": [
+    {
+      "name": "Python",
+      "category": "Lógica de programação, scripts e conceitos de POO",
+      "level": "Fundamentos Sólidos",
+      "icon": "fa-brands fa-python",
+      "colorClass": "text-yellow"
+    },
+    {
+      "name": "HTML5 / CSS3 / JavaScript",
+      "category": "Estruturação semântica, responsividade e manipulação do DOM",
+      "level": "Prática Contínua",
+      "icon": "fa-brands fa-html5",
+      "colorClass": "text-cyan"
+    },
+    {
+      "name": "Banco de Dados & SQL",
+      "category": "Modelagem relacional, consultas SQL e administração básica",
+      "level": "Prática Operacional",
+      "icon": "fa-solid fa-database",
+      "colorClass": "text-indigo"
+    },
+    {
+      "name": "Inteligência Artificial (Azure AI-900)",
+      "category": "Conceitos fundamentais de IA no Azure e ferramentas de produtividade",
+      "level": "Certificado Oficial",
+      "icon": "fa-solid fa-microchip",
+      "colorClass": "text-purple"
+    },
+    {
+      "name": "Redes de Computadores",
+      "category": "Simulação no Cisco Packet Tracer e fundamentos de infraestrutura",
+      "level": "Fundamentos Práticos",
+      "icon": "fa-solid fa-network-wired",
+      "colorClass": "text-emerald"
+    },
+    {
+      "name": "Git & GitHub",
+      "category": "Versionamento de código, controle de branches e commits semânticos",
+      "level": "Prática Contínua",
+      "icon": "fa-brands fa-git-alt",
+      "colorClass": "text-orange"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Boru Centro de Combate",
+      "description": "Plataforma web oficial desenvolvida em TypeScript e hospedada na Vercel com domínio próprio para o Boru Centro de Combate.",
+      "repoUrl": "https://github.com/Bergamin1234/boru",
+      "liveUrl": "https://www.borucentrodecombate.com/",
+      "tags": ["TypeScript", "Vercel", "Produção", "Open Source"],
+      "icon": "fa-solid fa-shield-halved"
+    },
+    {
+      "title": "Portfólio Médica Ivana",
+      "description": "Website institucional e portfólio médico profissional desenvolvido com interface responsiva e publicado na Vercel.",
+      "repoUrl": "https://github.com/Bergamin1234/PortfolioMedicaIvana",
+      "liveUrl": "https://portfolio-medica-ivana.vercel.app/",
+      "tags": ["HTML5", "CSS3", "Vercel", "Open Source"],
+      "icon": "fa-solid fa-user-doctor"
+    },
+    {
+      "title": "Abelha da Amazônia",
+      "description": "Aplicação web de e-commerce e gestão de vendas com catálogo interativo, checkout e painel administrativo publicado na Vercel.",
+      "repoUrl": "https://github.com/Bergamin1234/Abelha-Da-Amazonia",
+      "liveUrl": "https://abelha-da-amazonia.vercel.app/",
+      "tags": ["HTML5", "JavaScript", "E-commerce", "Vercel"],
+      "icon": "fa-solid fa-store"
+    },
+    {
+      "title": "calculadora-rescisao",
+      "description": "Calculadora online de rescisão contratual trabalhista segundo as diretrizes da CLT, desenvolvida em Vanilla JavaScript.",
+      "repoUrl": "https://github.com/Bergamin1234/calculadora-rescisao",
+      "liveUrl": "https://bergamin1234.github.io/",
+      "tags": ["Vanilla JS", "Cálculos CLT", "Frontend", "Open Source"],
+      "icon": "fa-solid fa-calculator"
+    },
+    {
+      "title": "bolso-em-dia",
+      "description": "Aplicação web para organização e controle financeiro pessoal, com foco em usabilidade e planejamento orçamentário.",
+      "repoUrl": "https://github.com/Bergamin1234/bolso-em-dia",
+      "liveUrl": "",
+      "tags": ["JavaScript", "Finanças", "Web App", "Open Source"],
+      "icon": "fa-solid fa-wallet"
+    },
+    {
+      "title": "portfolio",
+      "description": "Código-fonte aberto deste portfólio profissional em HTML5 semântico, CSS3 moderno e integração dinâmica via JSON.",
+      "repoUrl": "https://github.com/Bergamin1234/portfolio",
+      "liveUrl": "https://italo-bergamin-portfolio.vercel.app/",
+      "tags": ["HTML5", "CSS3", "JavaScript", "Vercel"],
+      "icon": "fa-solid fa-globe"
+    }
+  ]
+}
